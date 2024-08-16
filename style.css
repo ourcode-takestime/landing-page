@@ -63,3 +63,62 @@ button {
     border-radius: 8px;
 }
 
+.uspbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px;
+    gap: 120px;
+}
+
+.usptitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 120px;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.cardblock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.quotebody {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 160px 240px;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    width: auto;
+    gap: 20px;
+}
+
+.quotetext {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 28px;
+}
