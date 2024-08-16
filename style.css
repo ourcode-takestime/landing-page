@@ -26,3 +26,40 @@ li {
     font-weight: 400;
     margin: 12px;
 }
+
+.herocontainer {
+    display: flex;
+    align-items: center;
+    padding: 160px;
+    background-color: #1f2937;
+    gap: 100px;
+    
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 12px 32px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
