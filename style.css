@@ -61,6 +61,7 @@ button {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
+    border-style: none;
 }
 
 .uspbody {
@@ -121,4 +122,48 @@ button {
     color: #1f2937;
     font-weight: bold;
     font-size: 28px;
+}
+
+.ctabody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+}
+
+.ctablock {
+    background-color: #3882f6;
+    padding: 40px 160px;
+    border-radius: 12px;
+    display: flex;
+    gap: 120px;
+}
+
+.ctatitle {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 8x;
+}
+
+.ctasubtext {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.ctabutton {
+    border-color: #f9faf8;
+    border-width: 2px;
+    padding: 4px 60px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 20px 160px;
 }
